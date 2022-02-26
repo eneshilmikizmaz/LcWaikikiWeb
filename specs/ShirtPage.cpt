@@ -1,0 +1,22 @@
+
+# Erkek gömlek sayfasının açıldığı kontrol edilir
+* "Gömlek Sayfası" doğrulama "//span[contains(text(),'Gömlek')]"
+
+# Sırala menüsünden En Yüksek Fiyat seçilir
+* "//*[@id='dropdownMenu1']" li "Sırala Butonu" e tıklanır
+* "//*[@id='hfl_3']" li "En Yüksek Fiyat Butonu" e tıklanır
+
+# İlk 3 ürün favorilere eklenir
+* "(//*[@class='a_model_item'])[1]" li elementin "id" attribute değeri "1" ile depolanır
+* "(//*[@class='a_model_item'])[2]" li elementin "id" attribute değeri "2" ile depolanır
+* "(//*[@class='a_model_item'])[3]" li elementin "id" attribute değeri "3" ile depolanır
+
+* "(//div[@class='emi-item fav'])[1]" li "fav icon 1" e tıklanır
+* "(//div[@class='emi-item fav'])[2]" li "fav icon 2" e tıklanır
+* "(//div[@class='emi-item fav'])[3]" li "fav icon 3" e tıklanır
+
+# Favorilerim butonuna tıklanır
+* "(//a[@class='header-add-to-favorite'])[1]" li "Favorilerim" e tıklanır
+
+
+

@@ -1,0 +1,10 @@
+Created by testinium on 7/25/2021
+
+
+# Anasayfanın açıldığı kontrol edilir
+* "//span[@class='closeBtn']" li "Cookie" e tıklanır
+* "Anasayfayı" doğrulama "//*[@class='section inspiring']"
+
+# Menüden erkek seçeneği üzerinde durulur ve Gömlek kategorisi seçilir
+* "//*[@id='menu_6']" li erkek kategorisine hover yapılır , "//a[@href='/tr-TR/TR/kategori/erkek/gomlek']" li gömlek kategorisi seçilir
+

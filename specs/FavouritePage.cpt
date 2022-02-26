@@ -1,0 +1,27 @@
+
+#Favorilerim sayfasının açıldığı doğrulanır
+*"Favorilerim Sayfası" doğrulama "//div[@class='FavoriteListPage']"
+
+#Favori olarak seçilen ürünler doğrulanır
+*"(//a[@class='a_model_item'])[1]" li favori ürün "id" ve "1" ile doğrulanır "3"
+*"(//a[@class='a_model_item'])[2]" li favori ürün "id" ve "2" ile doğrulanır "2"
+*"(//a[@class='a_model_item'])[3]" li favori ürün "id" ve "3" ile doğrulanır "1"
+
+#Tümünü seç butonuna tıklanır
+* "//div[@id='selectAll']" li "Tümünü Seç" e tıklanır
+
+#Tümünün seçildiği doğrulanır
+*fav checkmark "//span[@class='fav-checkmark']" sayısı doğrulanır
+
+#Seçilenleri sil butonuna tıklanır
+*" //div[@id='removeSelected']" li "Seçilenleri Sil" e tıklanır
+
+#Favori ürününüz yok yazısı gözlemlenir
+*"Favori ürününüz yok" doğrulama " //p[@class='text-center bold favoriteNoItemHeaderColor']"
+
+
+
+
+
+
+////a[@class='a_model_item']
